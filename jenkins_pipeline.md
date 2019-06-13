@@ -50,7 +50,7 @@ Select radio-button: **"Git"**.
 
 Repositories: Repository URL: **"https://github.com/example-project-url.git"** (Make sure you have .git on the end of URL.)
 
-Repositories: Credentials: select from dropdown or click on "ADD" button (this profile will have to have permission to make changes on GitHub repo)
+Repositories: Credentials: select from dropdown or click on `ADD` button (this profile will have to have permission to make changes on GitHub repo)
 
 Branches to build: Branch Specifier (blank for 'any'): you can leave it empty.
 <br/><br/>
@@ -78,13 +78,13 @@ Leave all otpions empty.
 
 **Build**
 
-Click on drop-down button: "Add build step".
+Click on drop-down button: `Add build step`.
 
 Select option: **"GitHub PR: set 'pending' status"**.
 <br/><br/>
 
 [OPTIONAL]
-Click on drop-down button: "Add build step".
+Click on drop-down button: `Add build step`.
 
 Select option: **"Execute shell"**.
 
@@ -132,7 +132,7 @@ http://195.228.147.126:9090/ghprbhook/  (pull_request and push)
 
 **Content type**
 
-Select **application/json**.
+Select: `application/json`.
 <br/><br/>
 
 **Secret**
@@ -142,7 +142,7 @@ Select **application/json**.
 
 **Which events would you like to trigger this webhook?**
 
-Select the one to your requirements (reccomended: "Send me everything")
+Select the one to your requirements (for simplicity i go with: "Send me everything")
 <br/><br/>
 
 **Active**
