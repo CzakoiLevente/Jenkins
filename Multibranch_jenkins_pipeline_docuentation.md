@@ -130,7 +130,7 @@ Setup environment:
  
  Let AWS initialize instance.
  
- ```
+ ```javascript
  Note: 
  
  1) AWS Elastic Beanstalk will create other dependencies such as: VPC, EC2, S3... 
@@ -162,7 +162,7 @@ Your Jenkinsfile should look somehow like this:
 
 **Follow through code and replace pieces between signs <> ... <> with your own code.**
 
-```
+```javascript
 pipeline {
   environment {
     registry = "<>docker_user_name/docker_image<>"
@@ -225,7 +225,7 @@ pipeline {
 
 <br>
 
-```
+```javascript
 NOTE:
 
 1. Using AWS EB CLI will complicate your life. If you can, use AWS CLI instead. It will be easier.
